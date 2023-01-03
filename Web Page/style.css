@@ -1,15 +1,38 @@
 *{
     margin: 0;
-    border: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.navigation_bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    margin: 15px 0;
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+.nav_heading{
+    display: flex;
+    padding-left: 10px;
+}
+
+.nav_heading h4{
+    color: #f2f2f2;
+    text-transform: uppercase;
+}
 
 /*Add a black bc to the top navigation*/
 .topnav{
     margin: 15px 0;
     background-color: #333;
-    overflow: hidden;
 }
 
 /**/
